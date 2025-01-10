@@ -106,6 +106,9 @@ class _MonthlyAttendanceState extends State<MonthlyAttendance> {
                     ),
                   );
                 },
+                outsideBuilder: (context,day,focusedDay){
+                  return Container();
+                }
 
 
               ),
