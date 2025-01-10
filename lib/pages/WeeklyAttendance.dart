@@ -39,7 +39,7 @@ class _WeeklyAttendanceState extends State<WeeklyAttendance> {
       case 'Holiday':
         return Colors.blue.shade100;
       case 'Future':
-        return Colors.white;
+        return Colors.transparent;
       default:
         return Colors.white;
     }
